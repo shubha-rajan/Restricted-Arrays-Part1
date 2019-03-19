@@ -89,7 +89,7 @@ end
 # For an array sorted in ascending order, searches for 'value_to_find'.
 # Returns true if found, false otherwise.
 # Time complexity: O(log n)
-# Space complexity: O(n)
+# Space complexity: O(1)
 def binary_search(array, length, value_to_find)
   low = 0
   high = length - 1
